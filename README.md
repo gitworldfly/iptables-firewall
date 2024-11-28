@@ -6,7 +6,7 @@
 主机名解析功能--自动解析主机名背后的 IP，并将其添加到 IP 白名单中  
 
 安装：
-1.运行 "git clone https://github.com/sevsec/iptables-firewall ” 
+1.运行 "git clone https://github.com/sevsec/iptables-firewall ”   
 2.使用 “cd iptables-firewall ”进入该文件夹  
 3.使用 sudo 运行附带的 setup.sh 脚本："sudo ./setup.sh  
 4.默认安装模式为简单安装，它会提示你输入所有必要的配置信息。  
