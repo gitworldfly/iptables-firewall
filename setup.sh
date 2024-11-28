@@ -220,10 +220,10 @@ advanced_install() {
 while true; do
   echo "This script will setup iptables-firewall for you."
   echo ""
-  echo "You have the option of running: "
-  echo "  [S]imple setup and installation, you will be prompted for all configs (recommended)"
-  echo "  [A]dvanced setup and installation (base system will be installed, you will have to config/enable manually)"
-  echo "  [Q]uit this setup and leave the system unmodified"
+  echo "您可以选择运行: "
+  echo "  [S]简单设置和安装，系统将提示您进行所有配置（推荐）"
+  echo "  [A]高级设置和安装（将安装基本系统，您必须手动配置/启用）"
+  echo "  [Q]退出设置，不修改系统"
   echo ""
   read -p"Please choose: [s/a/Q]: " PROMPT
     if [[ "$PROMPT" =~ [Aa] ]]; then
