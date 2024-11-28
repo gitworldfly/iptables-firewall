@@ -166,7 +166,7 @@ simple_install() {
   # 启用 ICMP?
   read -p"允许来自互联网的 ICMP? [y/N]: " ICMP
   if [[ "$ICMP" =~ [yY] ]]; then
-    sed -i 's/allow\_icmp\=0/allow\_icmp\=1/g' /etc/iptables-firewall/config/icmp.conf
+    sed -i 's/allow\_icmp\=6/allow\_icmp\=1/g' /etc/iptables-firewall/config/icmp.conf
     echo "ICMP 已设置为 ALLOW；ICMP 已启用."
   fi
 
